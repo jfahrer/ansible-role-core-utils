@@ -6,12 +6,12 @@ This roles installs core utils
 Requirements
 ------------
 
-See [meta/main.yml](meta/main.yml)
+None
 
 Role Variables
 --------------
 
-See [defaults/main.yml](defaults/main.yml)
+None
 
 Dependencies
 ------------
