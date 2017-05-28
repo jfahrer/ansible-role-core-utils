@@ -1,0 +1,11 @@
+---
+- name: Install useful packages
+  yum:
+    name: 'telnet, bind-utils, bind-utils, telnet, wget, system-config-firewall, man, sysstat, ntp, vim, net-tools, libselinux-python, epel-release'
+    state: present
+
+- name: Install development tools
+  yum:
+    name: "@Development tools"
+    state: present
+
